@@ -3,6 +3,10 @@
 #include <string.h>
 #include <assert.h>
 
+/*
+ * An implementation of buddy memory allocator
+ */
+
 #define MAX_RANK 32
 
 typedef struct block
